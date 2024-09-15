@@ -8,20 +8,20 @@
   <link href="output.css" rel="stylesheet">
   <title>Frontend Mentor | Product preview card component</title>
 </head>
-<body class="bg-cream flex justify-center items-center md:min-h-[800px] p-4">
+<body class="bg-cream flex justify-center items-center min-h-[800px] p-4">
   
-  <main class="container bg-white md:w-[600px] md:h-[453px] flex flex-col md:flex-row rounded-lg">
+  <main class="container  bg-white w-[320px] md:w-[600px] md:h-[450px] flex flex-col md:flex-row rounded-lg overflow-hidden">
     <!-- left section -->
-    <section class="md:w-1/2">
-      <img src="./images/image-product-desktop.jpg" alt="parfume" class=" transition-all duration-500 ease-in-out rounded-br-full hover:rounded-br-none cursor-pointer">
+    <section class="md:w-1/2 md:h-full h-[15rem] bg-[url('./images/image-product-mobile.jpg')] md:bg-[url('./images/image-product-desktop.jpg')] bg-contain bg-no-repeat rounded-br-full">
+      <div class="">
     </section>
     <!-- right section -->
-    <section class=" container md:w-1/2 flex flex-col gap-5 font-montserrat p-8 ">
+    <section class=" container md:w-1/2 flex flex-col gap-5 font-montserrat md:p-8 p-4 ">
       <span class="uppercase text-darkGrayishBlue tracking-widest">perfume</span>
       <h1 class="font-fraunces text-darkBlue text-3xl font-bold">Gabrielle Essence Eau De Parfum</h1>
       <p class="text-sm text-darkGrayishBlue leading-normal ">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
         Perfumer-Creator for the House of CHANEL.</p>
-      <p class="font-fraunces text-4xl text-darkCyan font-bold flex items-center gap-2">
+      <p class="font-fraunces text-3xl text-darkCyan font-bold flex items-center gap-2">
         $149.99
         <span class="font-montserrat text-base text-darkGrayishBlue font-normal line-through">$169.99</span>
       </p>
@@ -31,16 +31,5 @@
       </button>
     </section>
   </main>
-  <!-- 
-
-  
-
-  
-  
-
-   -->
-  
-  
-  </div>
 </body>
 </html>
